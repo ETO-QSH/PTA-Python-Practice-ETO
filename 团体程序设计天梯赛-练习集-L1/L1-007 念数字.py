@@ -10,4 +10,4 @@ dic = {'0': 'ling',
         '9': 'jiu',
         '-': 'fu'}
 
-print(' '.join([dic[i] for i in input()]))
+print(*[dic[i] for i in input()])
